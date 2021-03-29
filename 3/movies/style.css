@@ -1,0 +1,128 @@
+.right{
+    float: right;
+    width: 50%;
+}
+
+.header{
+    font-family: 'Bank Gothic', sans-serif;
+    font-size: 60px;
+    color: white;
+    background-color: gray;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+
+}
+
+.innerheader{
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.left{
+    float: left;
+    width: 60%;
+}
+
+.section{
+    clear: both;
+    display: block;
+}
+
+.vrai{
+    color: forestgreen;
+    background-color: darkkhaki;
+    display: none;
+    width: fit-content;
+    width: -moz-fit-content;
+    margin: 0 auto;
+    padding: 4px;
+}
+
+.faux{
+    color: crimson;
+    background-color: lightcoral;
+    display: none;
+    width: fit-content;
+    width: -moz-fit-content;
+    margin: 0 auto;
+    padding: 4px;
+}
+
+.container{
+    width: 50%;
+    margin: 80px auto 0px auto;
+    height: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.inputContainer{
+    padding: 10px 0px 10px 0px;
+    margin: 0 auto;
+    width: -moz-max-content;    /* Firefox/Gecko */
+    width: -webkit-max-content; /* Chrome */
+}
+
+.abithigher{
+    font-size: 50px;
+    margin: 0px 0px 5px 5px;
+    display: inline-block;
+}
+
+label{
+    display: block;
+    margin: 5px auto;
+}
+
+button{
+    display: block;
+    margin: 5px auto;
+}
+
+img{
+    max-height: 400px;
+    max-width: 267px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+span{
+    display: inline-block;
+    color: crimson;
+    margin-top: 5px;
+}
+
+
+/* The typewriter cursor effect */
+
+
+.animation{
+    position: fixed;
+    top: 0px;
+    display: inline-block;
+    font-size: 60px;
+    margin: 0px 0px 0px 0px;
+    animation: blinker 2s step-end infinite;
+}
+
+@keyframes blinker{
+    from, to { color: crimson }
+    50% { color: transparent; }
+}
+
+
+#tohide{
+    display: none;
+}
+
+#actor{
+    margin: 0 auto;
+}
